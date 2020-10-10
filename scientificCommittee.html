@@ -15,11 +15,16 @@
     <link rel="icon" type="image/png" href="/assets/images/favicon/img-inaoe-16.png" sizes="16x16">
     <style>
       table {width:100%;}
-      td {padding-top: 10px; padding-bottom: 10px;}
+      td {padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px; text-align: right;}
+      .i {width: 60%; font-weight: bold; font-size: 18px; text-align: center;}
       .nameT {background-color: rgba(18, 91, 69,.4)}
       .nameA {background-color: rgba(18, 91, 69,.2)}
+      @media only screen and (max-width: 1400px) {
+        .i {width: 65%}
+      }
       @media only screen and (max-width: 400px) {
         .text-area {width:95%}
+        .i {width: 55%}
       }
     </style>
   </head>
@@ -44,47 +49,47 @@
           <h1>Scientific Committee</h1>
           <br>
           <table>
-            <tr><td>Jacques Facon</td><td class="nameA">Universidade Federal do Epirito Santo - Sao Mateus</td></tr>
-            <tr><td class="nameT">Jose Miguel Benedi</td><td>Universitat Politècnica de València</td>
-            <tr><td>Martin Kampel</td><td class="nameA">Vienna University of Technology</td></tr>
-            <tr><td class="nameT">Manuel Lazo-Cortés</td><td>IAPR</td></tr>
-            <tr><td>Glauco Vitor Pedrosa</td><td class="nameA">University of Brasilia (UnB)</td></tr>
-            <tr><td class="nameT">Abhijit Das</td><td>Griffitd University</td></tr>
-            <tr><td>Juan B. Hurtado-Ramos</td><td class="nameA">Instituto Politécnico Nacional</td></tr>
-            <tr><td class="nameT">Antonio-José Sánchez-Salmerún</td><td>Universitat Politècnica de València</td></tr>
-            <tr><td>Hugo Jair Escalante</td><td class="nameA">INAOE</td></tr>
-            <tr><td class="nameT">Eduardo Morales</td><td>INAOE</td></tr>
-            <tr><td>Pedro Pina</td><td class="nameA">Universidade de Lisboa</td></tr>
-            <tr><td class="nameT">Daniela Godoy</td><td>ISISTAN Research Institute</td></tr>
-            <tr><td>Marcos A. Levano</td><td class="nameA">Universidad Catolica de Temuco</td></tr>
-            <tr><td class="nameT">Humberto Sossa</td><td>IPN</td></tr>
-            <tr><td>Lev Goldfarb</td><td class="nameA">Faculty of CS (UNB)</td></tr>
-            <tr><td class="nameT">Joaquin Salas</td><td>IPN</td></tr>
-            <tr><td>José Luis Oliveira</td><td class="nameA">University of Aveiro</td></tr>
-            <tr><td class="nameT">Xiaoyi Jiang</td><td>University of Münster</td></tr>
-            <tr><td>German Castellanos</td><td class="nameA">Universidad Nacional de Colombia</td></tr>
-            <tr><td class="nameT">Pedro Real Jurado</td><td>Institute Matdematics of Seville University (IMUS)</td></tr>
-            <tr><td>Carlo Sansone</td><td class="nameA">University of Naples Federico II</td></tr>
-            <tr><td class="nameT">Marcelo Mendoza</td><td>Universidad Técnica Federico Santa María</td></tr>
-            <tr><td>Luis Enrique Sucar</td><td class="nameA">INAOE</td></tr>
-            <tr><td class="nameT">Julian Fierrez</td><td>Universidad Autonoma de Madrid</td></tr>
-            <tr><td>Vitaly Kober</td><td class="nameA">CICESE</td></tr>
-            <tr><td class="nameT">Michele Nappi</td><td>Dipartimento di Matematica e Informatica (UNISA)</td></tr>
-            <tr><td>Kalman Palagyi</td><td class="nameA">University of Szeged</td></tr>
-            <tr><td class="nameT">Adrian Perez-Suay</td><td>University of Valencia</td></tr>
-            <tr><td>Laurent Heutte</td><td class="nameA">Université de Rouen</td></tr>
-            <tr><td class="nameT">Ruben Tolosana</td><td>Biometric Recognition Group - ATVS (Universidad Autonoma de Madrid)</td></tr>
-            <tr><td>Antoni Grau</td><td class="nameA">Universitat Politècnica de Catalunya</td></tr>
-            <tr><td class="nameT">Jose Ruiz-Shulcloper</td><td>Universidad de las Ciencias Inform·ticas (UCI)</td></tr>
-            <tr><td>Sang-Woon Kim</td><td class="nameA">Myongji University</td></tr>
-            <tr><td class="nameT">J. Octavio Gutierrez-Garcia</td><td>ITAM</td></tr>
-            <tr><td>Magda Gregorova</td><td class="nameA">University of Geneva and Geneva School of Business Administration (HES-SO)</td></tr>
-            <tr><td class="nameT">Stephane Marchand-Maillet</td><td>Viper Group - University of Geneva</td></tr>
-            <tr><td>Raul Montoliu</td><td class="nameA">Dept. Ingenieria y Ciencia de los Computadores. Universidad Jaume I</td></tr>
-            <tr><td class="nameT">Arnaldo Araujo</td><td>Universidade Federal de Minas Gerais</td></tr>
-            <tr><td>Luís A. Alexandre</td><td class="nameA">UBI and Instituto de Telecomunicações</td></tr>
-            <tr><td class="nameT">Rocio Lizarraga-Morales</td><td class="nameA">Universidad de Guanajuato</td></tr>
-            <tr><td>Jefersson Alex Dos Santos</td><td class="nameA">Universidade Federal de Minas Gerais (UFMG)</td></tr>
+            <tr><td class="i">Jacques Facon</td><td class="nameA">Universidade Federal do Epirito Santo - Sao Mateus</td></tr>
+            <tr><td class="i nameT">Jose Miguel Benedi</td><td>Universitat Politècnica de València</td>
+            <tr><td class="i">Martin Kampel</td><td class="nameA">Vienna University of Technology</td></tr>
+            <tr><td class="i nameT">Manuel Lazo-Cortés</td><td>IAPR</td></tr>
+            <tr><td class="i">Glauco Vitor Pedrosa</td><td class="nameA">University of Brasilia (UnB)</td></tr>
+            <tr><td class="i nameT">Abhijit Das</td><td>Griffitd University</td></tr>
+            <tr><td class="i">Juan B. Hurtado-Ramos</td><td class="nameA">Instituto Politécnico Nacional</td></tr>
+            <tr><td class="i nameT">Antonio-José Sánchez-Salmerún</td><td>Universitat Politècnica de València</td></tr>
+            <tr><td class="i">Hugo Jair Escalante</td><td class="nameA">INAOE</td></tr>
+            <tr><td class="i nameT">Eduardo Morales</td><td>INAOE</td></tr>
+            <tr><td class="i">Pedro Pina</td><td class="nameA">Universidade de Lisboa</td></tr>
+            <tr><td class="i nameT">Daniela Godoy</td><td>ISISTAN Research Institute</td></tr>
+            <tr><td class="i">Marcos A. Levano</td><td class="nameA">Universidad Catolica de Temuco</td></tr>
+            <tr><td class="i nameT">Humberto Sossa</td><td>IPN</td></tr>
+            <tr><td class="i">Lev Goldfarb</td><td class="nameA">Faculty of CS (UNB)</td></tr>
+            <tr><td class="i nameT">Joaquin Salas</td><td>IPN</td></tr>
+            <tr><td class="i">José Luis Oliveira</td><td class="nameA">University of Aveiro</td></tr>
+            <tr><td class="i nameT">Xiaoyi Jiang</td><td>University of Münster</td></tr>
+            <tr><td class="i">German Castellanos</td><td class="nameA">Universidad Nacional de Colombia</td></tr>
+            <tr><td class="i nameT">Pedro Real Jurado</td><td>Institute Matdematics of Seville University (IMUS)</td></tr>
+            <tr><td class="i">Carlo Sansone</td><td class="nameA">University of Naples Federico II</td></tr>
+            <tr><td class="i nameT">Marcelo Mendoza</td><td>Universidad Técnica Federico Santa María</td></tr>
+            <tr><td class="i">Luis Enrique Sucar</td><td class="nameA">INAOE</td></tr>
+            <tr><td class="i nameT">Julian Fierrez</td><td>Universidad Autonoma de Madrid</td></tr>
+            <tr><td class="i">Vitaly Kober</td><td class="nameA">CICESE</td></tr>
+            <tr><td class="i nameT">Michele Nappi</td><td>Dipartimento di Matematica e Informatica (UNISA)</td></tr>
+            <tr><td class="i">Kalman Palagyi</td><td class="nameA">University of Szeged</td></tr>
+            <tr><td class="i nameT">Adrian Perez-Suay</td><td>University of Valencia</td></tr>
+            <tr><td class="i">Laurent Heutte</td><td class="nameA">Université de Rouen</td></tr>
+            <tr><td class="i nameT">Ruben Tolosana</td><td>Biometric Recognition Group - ATVS (Universidad Autonoma de Madrid)</td></tr>
+            <tr><td class="i">Antoni Grau</td><td class="nameA">Universitat Politècnica de Catalunya</td></tr>
+            <tr><td class="i nameT">Jose Ruiz-Shulcloper</td><td>Universidad de las Ciencias Inform·ticas (UCI)</td></tr>
+            <tr><td class="i">Sang-Woon Kim</td><td class="nameA">Myongji University</td></tr>
+            <tr><td class="i nameT">J. Octavio Gutierrez-Garcia</td><td>ITAM</td></tr>
+            <tr><td class="i">Magda Gregorova</td><td class="nameA">University of Geneva and Geneva School of Business Administration (HES-SO)</td></tr>
+            <tr><td class="i nameT">Stephane Marchand-Maillet</td><td>Viper Group - University of Geneva</td></tr>
+            <tr><td class="i">Raul Montoliu</td><td class="nameA">Dept. Ingenieria y Ciencia de los Computadores. Universidad Jaume I</td></tr>
+            <tr><td class="i nameT">Arnaldo Araujo</td><td>Universidade Federal de Minas Gerais</td></tr>
+            <tr><td class="i">Luís A. Alexandre</td><td class="nameA">UBI and Instituto de Telecomunicações</td></tr>
+            <tr><td class="i nameT">Rocio Lizarraga-Morales</td><td class="nameA">Universidad de Guanajuato</td></tr>
+            <tr><td class="i">Jefersson Alex Dos Santos</td><td class="nameA">Universidade Federal de Minas Gerais (UFMG)</td></tr>
           </table>
         </div>
       </div>
