@@ -4,14 +4,150 @@
 /*Variables*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root {
+  /* PALACIO
+  --main-bg-color: rgb(161, 157, 128);
+  --main-bg-hover-color: rgb(195, 190, 155);
+  --main-spoiler-color: rgb(221, 203, 166);
+  --secondary-bg-color: rgb(246, 245, 241);
+
+  --text-color: rgb(12, 14, 34);
+  --main-text-color: rgb(12, 14, 34);
+  --secondary-text-color: rgb(12, 14, 34);
+  --spoiler-text-color: rgb(12, 14, 34);
+  --second-hover-color: rgb(12, 14, 34);
+
+  --secondary-b-color: rgb(231, 225, 214);
+  --secondary-b-hover-color: rgb(239, 233, 222);
+
+  --table-color-A: rgba(221, 203, 166, .6);
+  --table-color-B: rgba(221, 203, 166, .4);
+  */
+  /* CORPORATE
+  --main-bg-color: rgb(101, 112, 116);
+  --main-bg-hover-color: rgb(116, 129, 135);
+  --main-spoiler-color: rgb(64, 79, 85);
+  --secondary-bg-color: rgb(223, 227, 230);
+
+  --text-color: rgb(20, 20, 20);
+  --main-text-color: rgb(250,250,255);
+  --secondary-text-color: rgb(20, 20, 20);
+  --spoiler-text-color: rgb(250,250,255);
+  --second-hover-color: rgb(18,18,25);
+
+  --secondary-b-color: rgb(182, 187, 191);
+  --secondary-b-hover-color: rgb(196, 201, 206);
+
+  --table-color-A: rgba(48, 64, 93, .4);
+  --table-color-B: rgba(48, 64, 93, .2);
+  */
+  /* WINTER
+  --main-bg-color: rgb(122, 166, 191);
+  --main-bg-hover-color: rgb(138, 188, 216);
+  --main-spoiler-color: rgba(206, 206, 207,.95);
+  --secondary-bg-color: rgb(233, 233, 233);
+
+  --text-color: rgb(20, 20, 20);
+  --main-text-color: rgb(18, 18, 25);
+  --secondary-text-color: rgb(20, 20, 20);
+  --spoiler-text-color: rgb(18, 18, 25);
+  --second-hover-color: rgb(18, 18, 25);
+
+  --secondary-b-color: rgb(161, 210, 238);
+  --secondary-b-hover-color: rgb(168, 229, 246);
+
+  --table-color-A: rgba(168, 209, 235, .6);
+  --table-color-B: rgba(168, 209, 235, .4);
+  */
+  /* CRIMSON DREAMS
+  --main-bg-color: rgb(180, 75, 75);
+  --main-bg-hover-color: rgb(209, 86, 86);
+  --main-spoiler-color: rgb(48, 64, 93);
+  --secondary-bg-color: rgb(238, 216, 216);
+
+  --text-color: rgb(20, 20, 20);
+  --main-text-color: rgb(255, 250, 250);
+  --secondary-text-color: rgb(20, 20, 20);
+  --spoiler-text-color: rgb(250,250,255);
+  --second-hover-color: rgb(255,250,250);
+
+  --secondary-b-color: rgb(119, 153, 165);
+  --secondary-b-hover-color: rgb(144, 174, 185);
+
+  --table-color-A: rgba(48, 64, 93, .6);
+  --table-color-B: rgba(48, 64, 93, .4);
+  */
+  /* Geometry
+  --main-bg-color: rgb(165, 164, 182);
+  --main-bg-hover-color: rgb(117, 202, 212);
+  --main-spoiler-color: rgb(46, 143, 141);
+  --secondary-bg-color: rgb(255, 255, 255);
+
+  --text-color: rgb(20, 20, 20);
+  --main-text-color: rgb(20, 20, 20);
+  --secondary-text-color: rgb(20, 20, 20);
+  --spoiler-text-color: rgb(240,240,240);
+  --second-hover-color: rgb(20, 20, 20);
+
+  --secondary-b-color: rgb(255, 255, 255);
+  --secondary-b-hover-color: rgb(87, 187, 144);
+
+  --table-color-A: rgba(134, 47, 167,.4);
+  --table-color-B: rgba(134, 47, 167,.4);
+  */
+  /* HIGH CONTRAST
+  --main-bg-color: rgb(31, 0, 146);
+  --main-bg-hover-color: rgb(44, 0, 204);
+  --main-spoiler-color: rgb(31, 0, 146);
+  --secondary-bg-color: #0E0B16;
+
+  --text-color: #DDDDDD;
+  --main-text-color: #DDDDDD;
+  --secondary-text-color: #DDDDDD;
+  --spoiler-text-color: #DDDDDD;
+  --second-hover-color: #DDDDDD;
+
+  --secondary-b-color: rgb(46, 94, 163);
+  --secondary-b-hover-color: rgb(61, 124, 216);
+
+  --table-color-A: rgba(134, 47, 167,.4);
+  --table-color-B: rgba(134, 47, 167,.4);
+  */
+  /* GOLDEN EYE
+  --main-bg-color: #DCD0C0;
+  --main-bg-hover-color: #CBC0B0;
+  --main-spoiler-color: #F4F4F4;
+  --secondary-bg-color: #F4F4F4;
+
+  --text-color: #000000;
+  --main-text-color: #000000;
+  --secondary-text-color: #A79E71;
+  --spoiler-text-color: #A79E71;
+  --second-hover-color: rgb(0,0,0);
+
+  --secondary-b-color: #BAB0A0;
+  --secondary-b-hover-color: #D1C394;
+
+  --table-color-A: rgba(192, 178, 131,.4);
+  --table-color-B: rgba(192, 178, 131,.2);
+  */
+  /* ORIGINAL */
   --main-bg-color: rgba(1, 91, 69,1);
   --main-bg-hover-color: rgba(2, 103, 81, 1);
   --main-spoiler-color: rgba(1, 91, 69,1);
   --secondary-bg-color: rgba(191, 214, 206, 1);
-  --main-white-color: rgba(240,240,240,1);
+
+  --text-color: #000000;
+  --main-text-color: rgba(240,240,240,1);
+  --secondary-text-color: rgba(0,0,0,1);
+  --spoiler-text-color: rgba(240,240,240,1);
+  --second-hover-color: rgb(0,0,0);
+
   --secondary-b-color: rgba(100, 180, 110,1);
   --secondary-b-hover-color: rgba(211, 250, 216,1);
 
+  --table-color-A: rgba(18, 91, 69,.4);
+  --table-color-A: rgba(18, 91, 69,.2);
+  /*Variables extra*/
   --main-shadow-color: rgba(0,0,50,.9);
   font-family: 'Montserrat', sans-serif;
 }
@@ -19,43 +155,50 @@
 * {border: 0; box-sizing: border-box; margin: 0; padding: 0; font: Montserrat;}
 html, body {max-width: 100%; overflow-x: hidden;}
 body {background-color: var(--main-bg-color); position: relative}
-h1 {font-size: 50px;}
-h2 {font-size: 28px;}
-h3 {font-size: 35px;}
-h4 {font-size: 28px;}
+h1 {font-size: 50px; color: var(--secondary-text-color)}
+h2 {font-size: 28px; color: var(--secondary-text-color)}
+h3 {font-size: 35px; color: var(--secondary-text-color)}
+h4 {font-size: 28px; color: var(--secondary-text-color)}
 ul {width: 60%; margin-left: auto; margin-right: auto; text-align: left;}
 li {font-size: 23px;}
 /*Header*/
-/*.top-strip{background-color: var(--main-bg-color); height: 60px;}*/
-.header {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; height: 550px;
+/*.header {background-image: url('../images/img-BellasArtes.png'); background-attachment: fixed; background-position: 50% 60%; background-repeat: no-repeat; background-size: cover; height: 600px;
+         width: 100%;}*/
+.header {background-image: url('../images/img-ITAM.png'); background-attachment: fixed; background-position: 50% 60%; background-repeat: no-repeat; background-size: cover; height: 600px;
          width: 100%;}
-.header-text {background-color: var(--main-spoiler-color); border-radius: 25px; color: var(--main-white-color); position: relative; top: 50%;
+.header-text {background-color: var(--main-spoiler-color); border-radius: 25px; position: relative; top: 50%;
               margin-left: auto; margin-right: auto; -ms-transform: translateY(-50%); padding: 25px; text-align: center;
               transform: translateY(-50%);  width: 50%;}
+.header-text h1,h2 {color: var(--spoiler-text-color);}
 /*Container*/
-.container {background-color: var(--secondary-bg-color); width: 100%;}
+.container {background-color: var(--secondary-bg-color); width: 100%; color: var(--text-color);}
 .logos {background-color: var(--main-bg-color); height: auto; padding: 10px; text-align: center; width: 100%;}
 .logos img {border-radius: 5px; height: 60px; width: auto;}
 .text-area {margin-left: auto; margin-right: auto; margin-top: 10px; padding: 25px; text-align: center; width: 80%;}
-.text-area a {background-color: var(--main-bg-color); border-radius: 10px; color: var(--main-white-color); display: block; font-size: 25px;
+.text-area a {background-color: var(--main-bg-color); border-radius: 10px; color: var(--main-text-color); display: block; font-size: 25px;
               margin-bottom: 50px; margin-left: auto; margin-right: auto; margin-top: 20px; padding: 20px; text-decoration: none; width: 30%;}
 .text-area a:hover {background-color: var(--main-bg-hover-color)}
-.text-area button {background-color: var(--main-bg-color); border-radius: 10px; color: var(--main-white-color); font-size: 20px; margin: 25px;
+.text-area button {background-color: var(--main-bg-color); border-radius: 10px; color: var(--main-text-color); font-size: 20px; margin: 25px;
                    padding: 25px;}
 .text-area p {font-size: 24px; margin-bottom: 35px;}
 /*Menu*/
-.nav {background-color: var(--main-bg-color); left: 0; position: fixed; top: 0; width: 100%; height: 60px; box-shadow: 0px 10px 10px -8px var(--main-shadow-color)}
-.dropbtn {background-color: var(--main-bg-color); color: white; font-size: 22px; padding: 16px; width: 100%; height: 60px;}
-.dropdown {display: inline-block; position: relative; width: 25%;  height: 60px;}
+.nav {background-color: var(--main-bg-color); left: 0; position: fixed; top: 0; width: 100%; height: 60px; box-shadow: 0px 10px 10px -8px var(--main-shadow-color);}
+.dropbtn {background-color: var(--main-bg-color); color: var(--main-text-color); font-size: 22px; padding: 16px; width: 100%; height: 60px;}
+.dropdown {display: inline-block; position: relative; width: 25%;  height: 60px; z-index: 2}
 .dropdown-content {background-color: var(--secondary-b-color); box-shadow: 0px 10px 20px 2px var(--main-shadow-color); display: none;
-                   position: absolute; width: 100%; z-index: 1; }
-.dropdown-content a {color: black; display: block; font-size: 22px; padding: 12px 16px; text-decoration: none;}
+                   position: absolute; width: 100%; z-index: 1;}
+.dropdown-content a {color: var(--second-hover-color); display: block; font-size: 22px; padding: 12px 16px; text-decoration: none;}
 .dropdown-content a:hover {background-color: var(--secondary-b-hover-color);}
 .dropdown button {outline:0;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: var(--main-bg-hover-color);}
 /*Footer*/
 .footer {background-color: var(--main-bg-color)); height: 25px;}
+/* Tables */
+.nameT {background-color: var(--table-color-A)}
+.nameA {background-color: var(--table-color-B)}
+
+
 /*Media*/
 @media only screen and (max-height: 500px) {
   /*Menu*/
