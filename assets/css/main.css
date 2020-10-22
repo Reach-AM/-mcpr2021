@@ -67,7 +67,7 @@ li {font-size: 23px;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: var(--main-bg-hover-color);}
 /*Footer*/
-.footer {background-color: var(--main-bg-color)); height: 25px;}
+.footer {background-color: var(--main-bg-color); height: 25px;}
 /* Tables */
 .nameT {background-color: var(--table-color-A)}
 .nameA {background-color: var(--table-color-B)}
