@@ -6,7 +6,7 @@ var images = new Array('img-Zocalo.jpeg','img-Ciudad.jpeg','img-BellasArtesTarde
                       'img-Ciudad2.jpeg','img-ITAM.jpeg','img-Angel.jpeg',
                       'img-Ciudad3.jpeg','img-Diana.jpeg','img-Ciudad4.jpeg');
 
-var nextimage = 0; var slide = setInterval(Slide, 7200);
+var nextimage = images.length; Slide(); var slide = setInterval(Slide, 7200);
 
 function Slide() {
     var headerSlider = document.getElementById('testsub');
