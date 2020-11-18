@@ -24,6 +24,9 @@
   --main-shadow-color: rgba(0,0,50,.9);
   font-family: 'Montserrat', sans-serif;
 }
+
+
+
 /*General*/
 * {border: 0; box-sizing: border-box; margin: 0; padding: 0; font: Montserrat;}
 html, body {max-width: 100%; overflow-x: hidden;}
@@ -34,6 +37,8 @@ h3 {font-size: 35px; color: var(--secondary-text-color)}
 h4 {font-size: 28px; color: var(--secondary-text-color)}
 ul {width: 60%; margin-left: auto; margin-right: auto; text-align: left;}
 li {font-size: 23px;}
+
+
 
 #page-wrapper {background-color: black;}
 /*Header*/
@@ -54,6 +59,7 @@ li {font-size: 23px;}
 .text-area a:hover {background-color: var(--main-bg-hover-color)}
 .text-area button {background-color: var(--main-bg-color); border-radius: 10px; color: var(--main-text-color); font-size: 20px; margin: 25px;
                    padding: 25px;}
+.text-area h1 {margin-bottom: 35px;}
 .text-area p {font-size: 24px; margin-bottom: 35px;}
 /*Menu*/
 .nav {background-color: var(--main-bg-color); left: 0; position: fixed; top: 0; width: 100%; height: 60px; box-shadow: 0px 10px 10px -8px var(--main-shadow-color);}
@@ -73,6 +79,15 @@ li {font-size: 23px;}
 .nameA {background-color: var(--table-color-B)}
 
 
+
+/*!!!! TEXT CORRECTIONS !!!!*/
+.txtc {width: 65%; margin-left: auto; margin-right: auto; text-align: justify;}
+.txtc a {color: black; display: inline; width: auto; height: auto; background-color: rgba(0,0,0,0); border-radius: 0px;
+  font-size: inherit; margin-bottom: 0px; margin-top: 0px; padding: 0px; text-decoration: underline;}
+.txtc a:hover {color:white;}
+
+
+
 /*Media*/
 @media only screen and (max-height: 500px) {
   /*Menu*/
@@ -85,9 +100,12 @@ li {font-size: 23px;}
 
 @media only screen and (max-width: 1200px) {
   /*Header*/
-  .header-text {width: 600px; padding: 23px;}
+  .header-text {width: 600px; left: calc(50% - 300px); padding: 23px;}
   /*Menu*/
   .dropdown-content a {font-size: 20px; padding: 10px 10px;}
+  /*Container*/
+  .text-area {width: 90%;}
+  .txtc {width: 80%;}
 }
 
 @media only screen and (max-width: 800px) {
@@ -99,16 +117,21 @@ li {font-size: 23px;}
   ul {width: 86%;}
   li {font-size: 20px;}
   /*Header*/
-  .header-text {width: 360px; padding: 20px;}
+  .header-text {width: 360px; left: calc(50% - 180px); padding: 20px;}
   /*Container*/
+  .txtc {width: 90%;}
+  .text-area {width: 100%;}
   .text-area a {font-size: 22px; margin-bottom: 30px; margin-top: 20px; padding: 16px; width: 56%;}
-  .text-area p {font-size: 24px; margin4-bottom: 20px;}
+  .text-area p {font-size: 20px; margin-bottom: 20px;}
   /*Menu*/
   .dropbtn {font-size: 16px;}
   .dropdown-content a {font-size: 16px; padding: 8px;}
 }
 
 @media only screen and (max-width: 615px) {
+  /*Container*/
+  .text-area {padding-left: 20px; padding-right: 20px;}
+  .txtc {width: 100%;}
   /*Menu*/
   .nav {position: static; height: auto;}
   .dropbtn {font-size: 18px; padding: 15px; width: 100%;}
@@ -125,11 +148,12 @@ li {font-size: 23px;}
   h4 {font-size: 20px;}
   li {font-size: 18px;}
   /*Header*/
-  .header-text {width: 210px}
+  .header-text {width: 210px; left: calc(50% - 105px);}
   /*Container*/
   .text-area a {font-size: 16px; margin-bottom: 30px; padding: 14px; width: 80%;}
   .text-area p {font-size: 18px; margin-bottom: 20px;}
 }
+
 @media only screen and (max-width: 300px) {
   h1 {font-size: 24px;}
   h3 {font-size: 22px;}
@@ -144,7 +168,11 @@ li {font-size: 23px;}
   .header {background-attachment: scroll; background-size: cover;}
   .text-area a {width: 90%;}
   .text-area {width: 90%}
+  .txtc {width: 90%;}
 }
+
+
+
 /*Animation*/
 @-webkit-keyframes fade {
   from {opacity: 0.2}
