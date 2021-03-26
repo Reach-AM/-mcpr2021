@@ -1,4 +1,4 @@
-# Página web del MCPR 2021
+# [Página web del MCPR 2021](ccc.inaoep.mx/~mcpr2021)
 
 The 13th Mexican Conference on Pattern Recognition (MCPR2021) will be held in Mexico City,
 Mexico from June 23 to June 26, 2021, under direction of the Academic Division of Engineering
