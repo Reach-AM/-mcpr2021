@@ -51,6 +51,8 @@ li {font-size: 23px;}
 .header-text h1,h2 {color: var(--spoiler-text-color);}
 /*Container*/
 .container {background-color: var(--secondary-bg-color); width: 100%; color: var(--text-color);}
+.reader {width: 90%; background-color: rgb(20,20,20); margin-left: 5%; margin-right: 5%;}
+.reader iframe {width: calc(100% - 10px); height: 850px; margin: 5px; margin-bottom: 1px;}
 .logos {background-color: var(--main-bg-color); height: auto; padding: 10px; text-align: center; width: 100%;}
 .logos img {border-radius: 5px; height: 60px; width: auto;}
 .text-area {margin-left: auto; margin-right: auto; margin-top: 10px; padding: 25px; text-align: center; width: 80%;}
@@ -61,7 +63,6 @@ li {font-size: 23px;}
                    padding: 25px;}
 .text-area h1 {margin-bottom: 35px;}
 .text-area p {font-size: 24px; margin-bottom: 35px;}
-.text-area iframe {width: 100%; height: 1000px}
 /*Menu*/
 .nav {background-color: var(--main-bg-color); left: 0; position: fixed; top: 0; width: 100%; height: 60px; box-shadow: 0px 10px 10px -8px var(--main-shadow-color);}
 .dropbtn {background-color: var(--main-bg-color); color: var(--main-text-color); font-size: 22px; padding: 16px; width: 100%; height: 60px;}
