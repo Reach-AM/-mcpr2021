@@ -55,7 +55,7 @@ li {font-size: 23px;}
 .reader iframe {width: calc(100% - 10px); height: 850px; margin: 5px; margin-bottom: 1px;}
 .logos {background-color: var(--main-bg-color); height: auto; padding: 10px; text-align: center; width: 100%;}
 .logos img {border-radius: 5px; height: 60px; width: auto;}
-.text-area {margin-left: auto; margin-right: auto; margin-top: 10px; padding: 25px; text-align: center; width: 80%;}
+.text-area {margin-left: auto; margin-right: auto; margin-top: 10px; padding: 25px; text-align: center; width: 90%;}
 .text-area a {background-color: var(--main-bg-color); border-radius: 10px; color: var(--main-text-color); display: block; font-size: 25px;
               margin-bottom: 50px; margin-left: auto; margin-right: auto; margin-top: 20px; padding: 20px; text-decoration: none; width: 30%;}
 .text-area a:hover {background-color: var(--main-bg-hover-color)}
@@ -83,11 +83,12 @@ li {font-size: 23px;}
 
 
 /*!!!! TEXT CORRECTIONS !!!!*/
-.txtc {width: 65%; margin-left: auto; margin-right: auto; text-align: justify;}
+.txtc {width: 70%; margin-left: auto; margin-right: auto; text-align: justify;}
 .txtc a {color: black; display: inline; width: auto; height: auto; background-color: rgba(0,0,0,0); border-radius: 0px;
   font-size: inherit; margin-bottom: 0px; margin-top: 0px; padding: 0px; text-decoration: underline;}
 .txtc a:hover {color:white;}
-
+.responsive1 {display: none;}
+.responsive2 {display: none;}
 
 
 /*Media*/
@@ -109,7 +110,9 @@ li {font-size: 23px;}
   .text-area {width: 90%;}
   .txtc {width: 80%;}
 }
-
+@media only screen and (max-width: 1050px) {
+  .responsive1 {display: inline;}
+}
 @media only screen and (max-width: 800px) {
   /*General*/
   h1 {font-size: 40px;}
@@ -132,6 +135,8 @@ li {font-size: 23px;}
 
 @media only screen and (max-width: 615px) {
   /*Container*/
+  .responsive1 {display: inline;}
+  .responsive2 {display: inline;}
   .text-area {padding-left: 20px; padding-right: 20px;}
   .txtc {width: 100%;}
   /*Menu*/
